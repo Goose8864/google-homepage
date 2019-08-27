@@ -5,10 +5,23 @@ html, body {
 body {
     margin: 0;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+    font-family: arial,sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .navbar-container{
     display: flex;
-    justify-content: flex-end;
-    padding: 15px;
+    padding: 25px;
 }
 
 .left-nav{
@@ -20,10 +33,10 @@ body {
 }
 
 .main-container{
-    padding: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: auto;
+    padding-bottom: 200px;
 }
 
 .search{
@@ -42,7 +55,12 @@ body {
     padding: 5px;
 }
 
-.footer{
+.footer-container{
     display: flex;
-    justify-content: flex-end;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.left-footer{
+    margin-right: auto;
 }

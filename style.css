@@ -7,10 +7,17 @@ body {
 }
 
 a{
-    text-decoration: none;
     color: black;
     font-size: 10pt;
     font-family: arial,sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .container{

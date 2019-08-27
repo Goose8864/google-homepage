@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+.navbar-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.left-nav{
+    margin-right: auto;
+}
+
+.navlinks{
+    padding: 5px;
+}
+
+.main-container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    margin-left: 30px;
+    width: 450px;
+    height: 40px;
+}
+
+.button-group{
+    padding-left: 125px;
+    padding-top: 20px;
+}
+
+.button{
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -40,20 +40,24 @@ a:hover{
 }
 
 .main-container{
-    display: flex;
     justify-content: center;
     margin: auto;
     padding-bottom: 200px;
 }
 
 .search{
-    margin-left: 30px;
-    width: 450px;
+    outline: none;
+    margin-left: 10px;
+    width: 500px;
     height: 40px;
+    border: 1px #000 solid;
+    border-radius: 50px;
+    text-indent: 20px;
+    font-size: 20px;
 }
 
 .button-group{
-    padding-left: 125px;
+    padding-left: 135px;
     padding-top: 20px;
 }
 
